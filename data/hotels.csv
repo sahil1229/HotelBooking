@@ -1,0 +1,41 @@
+id,name,location,price,description,amenities,special_offers
+1,The Oberoi Amarvilas,Agra,500,Opulent hotel with views of the Taj Mahal,Wi-Fi,Pool,Spa,Gym,20% off for extended stays
+2,The Leela Palace,New Delhi,600,Luxurious palace-style hotel with exquisite dining options,Wi-Fi,Pool,Spa,Gym,Free airport transfers
+3,Taj Mahal Palace,Mumbai,650,Iconic hotel offering stunning views of the Gateway of India,Wi-Fi,Pool,Spa,Gym,Complimentary afternoon tea
+4,The Ritz-Carlton,Bangalore,550,Modern hotel with sophisticated interiors and top-notch amenities,Wi-Fi,Pool,Spa,Gym,Free breakfast and dinner
+5,ITC Grand Chola,Chennai,400,Grand hotel with exquisite architecture and fine dining,Wi-Fi,Pool,Spa,Gym,20% off on spa treatments
+6,The Oberoi Udaivilas,Udaipur,700,Luxurious lakeside resort with stunning views and royal hospitality,Wi-Fi,Pool,Spa,Gym,Exclusive dinner experience
+7,Taj Falaknuma Palace,Hyderabad,800,Historic palace hotel with regal rooms and exceptional service,Wi-Fi,Pool,Spa,Gym,Complimentary heritage walk
+8,The Leela Kovalam,Kovalam,450,Beachfront resort offering serene views and luxurious amenities,Wi-Fi,Pool,Spa,Gym,Special package for honeymooners
+9,The St. Regis,New Delhi,550,Upscale hotel with elegant rooms and high-end amenities,Wi-Fi,Pool,Spa,Gym,Free afternoon tea and cocktails
+10,Taj Exotica Resort & Spa,Goa,500,Luxury resort set amidst lush landscapes and beautiful beaches,Wi-Fi,Pool,Spa,Gym,Complimentary water sports
+11,The Oberoi Rajvilas,Jaipur,600,Opulent resort with traditional Rajasthani architecture and luxury,Wi-Fi,Pool,Spa,Gym,Exclusive cultural evening
+12,ITC Maurya,New Delhi,500,Five-star hotel offering comfort and elegance in the city,Wi-Fi,Pool,Spa,Gym,Free breakfast for two
+13,Four Seasons Hotel,Mumbai,550,Luxury hotel with stunning city views and gourmet dining options,Wi-Fi,Pool,Spa,Gym,Complimentary spa treatment
+14,The Taj West End,Bangalore,480,Historic luxury hotel with beautiful gardens and top-tier service,Wi-Fi,Pool,Spa,Gym,Free room upgrade on availability
+15,The Oberoi,Shimla,400,Luxurious retreat with picturesque mountain views,Wi-Fi,Pool,Spa,Gym,Special summer rates
+16,Taj Lake Palace,Udaipur,700,Stunning palace hotel on Lake Pichola with royal hospitality,Wi-Fi,Pool,Spa,Gym,Complimentary boat ride
+17,ITC Grand Bharat,Gurgaon,600,Exclusive resort offering elegant accommodations and fine dining,Wi-Fi,Pool,Spa,Gym,Special rates for long stays
+18,The Leela Ambience,New Delhi,550,Modern hotel with stylish rooms and a range of dining options,Wi-Fi,Pool,Spa,Gym,Free airport transfers
+19,Taj Bengal,Kolkata,500,Elegant hotel offering luxury and comfort in the heart of Kolkata,Wi-Fi,Pool,Spa,Gym,Free guided city tour
+20,Radisson Blu Resort & Spa,Goa,450,Beachfront resort with luxurious rooms and world-class amenities,Wi-Fi,Pool,Spa,Gym,Special discount for extended stays
+21,The Taj Mahal Hotel,New Delhi,550,Opulent hotel offering luxurious rooms and gourmet dining,Wi-Fi,Pool,Spa,Gym,Free airport transfers
+22,Hyatt Regency,Mumbai,450,Contemporary hotel with upscale amenities and excellent service,Wi-Fi,Pool,Spa,Gym,10% off for early bookings
+23,Radisson Blu Plaza,Dwarka,500,Modern hotel with elegant rooms and multiple dining options,Wi-Fi,Pool,Spa,Gym,Special discount for extended stays
+24,The Leela Palace,Bengaluru,600,Luxury hotel with royal accommodations and exquisite dining,Wi-Fi,Pool,Spa,Gym,Complimentary dinner for two
+25,Fairmont Jaipur,Jaipur,550,Luxurious resort with a blend of traditional Rajasthani architecture,Wi-Fi,Pool,Spa,Gym,Exclusive cultural experience
+26,ITC Grand Central,Mumbai,400,Classic hotel offering comfort and elegance in the heart of the city,Wi-Fi,Pool,Spa,Gym,Free breakfast for two
+27,The Oberoi Bangalore,Bengaluru,650,Upscale hotel with luxurious rooms and excellent city views,Wi-Fi,Pool,Spa,Gym,Complimentary afternoon tea
+28,Le Meridien,New Delhi,500,Stylish hotel offering a range of amenities and services,Wi-Fi,Pool,Spa,Gym,Free guided city tour
+29,The Westin,Goa,550,Beachfront resort with a range of recreational activities and dining options,Wi-Fi,Pool,Spa,Gym,Complimentary water sports
+30,The Oberoi Cecil,Shimla,400,Historic hotel offering beautiful views of the Himalayas,Wi-Fi,Pool,Spa,Gym,Special winter rates
+31,Shangri-La Hotel,New Delhi,600,Luxury hotel with elegant rooms and premium amenities,Wi-Fi,Pool,Spa,Gym,Complimentary breakfast and dinner
+32,The Taj Palace,New Delhi,650,Five-star hotel with luxurious accommodations and top-notch service,Wi-Fi,Pool,Spa,Gym,Free room upgrade on availability
+33,The Leela Mumbai,Mumbai,700,Exquisite hotel with luxurious rooms and diverse dining options,Wi-Fi,Pool,Spa,Gym,Special offers for weekend stays
+34,Radisson Blu Marina,New Delhi,450,Modern hotel offering comfort and convenience in the city,Wi-Fi,Pool,Spa,Gym,10% off for advance bookings
+35,The Trident,Udaipur,500,Beautifully situated hotel with luxury accommodations and fine dining,Wi-Fi,Pool,Spa,Gym,Special package for couples
+36,The Lalit Great Eastern,Kolkata,550,Historic hotel offering a blend of luxury and heritage,Wi-Fi,Pool,Spa,Gym,Complimentary city tour
+37,The Oberoi,New Delhi,600,Luxury hotel with sophisticated design and exceptional service,Wi-Fi,Pool,Spa,Gym,Special rates for extended stays
+38,The Taj Krishna,Hyderabad,500,Comfortable hotel with upscale amenities and excellent service,Wi-Fi,Pool,Spa,Gym,Free breakfast for two
+39,ITC Gardenia,Bengaluru,650,Modern hotel offering luxury accommodations and premium dining,Wi-Fi,Pool,Spa,Gym,Special offer for weekend getaways
+40,The Taj Fort Aguada,Goa,700,Beachfront resort with luxurious rooms and stunning ocean views,Wi-Fi,Pool,Spa,Gym,Complimentary boat tour
