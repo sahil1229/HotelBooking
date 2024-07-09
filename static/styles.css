@@ -1,0 +1,176 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f5dc;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: #8b4513;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+.navbar h1 {
+    margin: 0;
+    font-size: 1.8rem;
+}
+
+.navbar .nav-menu {
+    display: flex;
+    gap: 15px;
+}
+
+.navbar .nav-menu_visible {
+    display: block;
+}
+
+.navbar .nav-toggle {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .navbar .nav-menu {
+        display: none;
+        flex-direction: column;
+    }
+    .navbar .nav-toggle {
+        display: block;
+        background: #fff;
+        border: 1px solid #8b4513;
+        padding: 5px 10px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+}
+
+/* Container */
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 60px 20px 20px; /* Adjusted for fixed navbar */
+}
+
+/* Header and Form Box Styles */
+.welcome-container, .form-container, .filter-box, .detail-box, .confirm-box, .profile-box, .wishlist-box {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 30px;
+    background: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* Headings */
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #8b4513;
+}
+
+h2 {
+    font-size: 1.8rem;
+    color: #556b2f;
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #8b4513;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn:hover {
+    background-color: #556b2f;
+    transform: translateY(-2px);
+}
+
+/* Links */
+.back-link {
+    display: block;
+    margin-top: 15px;
+    color: #8b4513;
+    text-decoration: none;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
+
+/* Hotel List Styles */
+.hotel-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.hotel-card {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 25px;
+    margin: 15px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.hotel-card h2 {
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+}
+
+.hotel-card p {
+    margin: 5px 0;
+}
+
+.hotel-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Form Elements */
+input[type="date"], select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
