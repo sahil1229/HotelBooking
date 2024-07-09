@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <script src="{{ url_for('static', filename='script.js') }}" defer></script>
+    <title>Hotels</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <a href="{{ url_for('profile') }}" class="btn">Profile</a>
+            <a href="{{ url_for('wishlist') }}" class="btn">Wishlist</a>
+            <a href="{{ url_for('home') }}" class="btn">Home</a>
+        </div>
+
+        <div class="filter-box">
+            <h1>Find Your Perfect Hotel</h1>
+            <form method="POST">
+                <label for="location">Location:</label>
+                <input type="text" name="location" placeholder="Enter city or area">
+
+                <label for="price_min">Min Price:</label>
+                <input type="number" name="price_min" placeholder="Minimum Price">
+
+                <label for="price_max">Max Price:</label>
+                <input type="number" name="price_max" placeholder="Maximum Price">
+
+                <label for="amenities">Amenities:</label>
+                <select name="amenities" multiple>
+                    <option value="Wi-Fi">Wi-Fi</option>
+                    <option value="Pool">Pool</option>
+                    <option value="Gym">Gym</option>
+                    <option value="Spa">Spa</option>
+                </select>
+
+                <button type="submit" class="btn">Apply Filters</button>
+            </form>
+        </div>
+
+        <div class="hotel-list">
+            {% for hotel in hotels %}
+                <div class="hotel-card">
+                    <h2>{{ hotel['name'] }}</h2>
+                    <p>Price: ${{ hotel['price'] }} per night</p>
+                    <p>Location: {{ hotel['location'] }}</p>
+                    <a href="{{ url_for('hotel_detail', hotel_id=hotel['id']) }}" class="btn">View Details</a>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</body>
+</html>
+
