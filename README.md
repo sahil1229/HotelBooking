@@ -28,7 +28,7 @@ To get started with the Hotel Booking App, follow these steps:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/HotelBooking.git
+git clone https://github.com/sahil1229/HotelBooking.git
 cd HotelBooking
 ```
 
