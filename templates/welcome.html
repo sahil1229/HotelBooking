@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <title>Welcome</title>
+</head>
+<body>
+    <div class="container welcome-container">
+        <div class="welcome-box">
+            <h1>Welcome to Our Hotel Booking App</h1>
+            <p>Are you a member?</p>
+            <div class="btn-group">
+                <a href="{{ url_for('login') }}" class="btn">Login</a>
+                <a href="{{ url_for('signup') }}" class="btn">Sign Up</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
