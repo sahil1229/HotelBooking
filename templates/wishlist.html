@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <title>Wishlist</title>
+</head>
+<body>
+    <div class="container">
+        <div class="wishlist-box">
+            <h1>Your Wishlist</h1>
+            <ul class="hotel-list">
+                {% for hotel in wishlist_hotels %}
+                    <li class="hotel-card">
+                        <h2>{{ hotel['name'] }}</h2>
+                        <p>Price: ${{ hotel['price'] }} per night</p>
+                        <p>Location: {{ hotel['location'] }}</p>
+                        <a href="{{ url_for('hotel_detail', hotel_id=hotel['id']) }}" class="btn">View Details</a>
+                    </li>
+                {% endfor %}
+            </ul>
+            <a href="{{ url_for('hotels') }}" class="btn">Back to Hotels</a>
+        </div>
+    </div>
+</body>
+</html>
