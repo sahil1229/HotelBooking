@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <title>Book Hotel</title>
+</head>
+<body>
+    <div class="container">
+        <div class="form-box">
+            <h1>Book {{ hotel['name'] }}</h1>
+            <form method="POST">
+                <label for="check_in_date">Check-in Date:</label>
+                <input type="date" name="check_in_date" required>
+                <label for="check_out_date">Check-out Date:</label>
+                <input type="date" name="check_out_date" required>
+                <button type="submit" class="btn">Confirm Booking</button>
+            </form>
+            <a href="{{ url_for('hotels') }}" class="back-link">Back to hotels</a>
+        </div>
+    </div>
+</body>
+</html>
