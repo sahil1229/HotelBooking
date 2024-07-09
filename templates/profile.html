@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <title>Profile</title>
+</head>
+<body>
+    <div class="container">
+        <div class="profile-box">
+            <h1>Welcome, {{ session['username'] }}</h1>
+            <h2>Your Bookings</h2>
+            <ul class="booking-list">
+                {% for reservation in reservations %}
+                    <li>
+                        <h3>{{ hotels[reservation['hotel_id']]['name'] }}</h3>
+                        <p>Check-in: {{ reservation['check_in_date'] }}</p>
+                        <p>Check-out: {{ reservation['check_out_date'] }}</p>
+                    </li>
+                {% endfor %}
+            </ul>
+            <a href="{{ url_for('hotels') }}" class="btn">Back to Hotels</a>
+        </div>
+    </div>
+</body>
+</html>
+
