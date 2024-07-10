@@ -1,6 +1,16 @@
 
 # Hotel Booking App
 
+## Visuals
+<img width="1512" alt="Screenshot 2024-07-09 at 2 23 58 PM" src="https://github.com/sahil1229/HotelBooking/assets/143722174/abd67624-24f6-45a8-8e6e-3e6baf61bdac">
+<img width="1512" alt="Screenshot 2024-07-09 at 2 24 20 PM" src="https://github.com/sahil1229/HotelBooking/assets/143722174/dcff36a4-a9bb-442d-94b3-638805c1b0bf">
+<img width="1512" alt="Screenshot 2024-07-09 at 2 25 00 PM" src="https://github.com/sahil1229/HotelBooking/assets/143722174/1896e539-6839-4ba6-a415-d031548a6126">
+<img width="1512" alt="Screenshot 2024-07-09 at 2 25 12 PM" src="https://github.com/sahil1229/HotelBooking/assets/143722174/070130c9-e6b6-46d5-bfd3-859130c4a8f4">
+<img width="1512" alt="Screenshot 2024-07-09 at 2 25 25 PM" src="https://github.com/sahil1229/HotelBooking/assets/143722174/ff0d0266-8a39-4ff1-bf36-65ab8d1a6030">
+<img width="1512" alt="Screenshot 2024-07-09 at 2 25 43 PM" src="https://github.com/sahil1229/HotelBooking/assets/143722174/2c6f4361-5f68-4820-b3bd-ea042eefd4b2">
+<img width="1512" alt="Screenshot 2024-07-09 at 2 25 50 PM" src="https://github.com/sahil1229/HotelBooking/assets/143722174/8f954726-954e-49b3-9cfa-f517de1719e6">
+<img width="1512" alt="Screenshot 2024-07-09 at 2 25 59 PM" src="https://github.com/sahil1229/HotelBooking/assets/143722174/fd8459d0-13e3-4e1c-83b4-4b8c93b64a9e">
+
 ## Overview
 
 Welcome to the Hotel Booking App! This web application allows users to find, book, and review hotels, as well as manage their wishlist and view their booking history. Built with Flask, this app is designed to provide a seamless hotel booking experience with features for users to explore hotels, make reservations, and submit reviews.
